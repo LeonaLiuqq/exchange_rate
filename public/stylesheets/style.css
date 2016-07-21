@@ -19,12 +19,7 @@
 .col_1{
 	background-color: rgba(63, 191, 63, 0.5);
 }
-.col_1 h3,
-.col_2 h3,
-.col_3 h3{
-	font-size: 30px;
-	font-family: "DSEG7";
-}
+
 .col_2{
 	background-color: rgba(236, 122, 8, 0.5);
 }
@@ -34,34 +29,35 @@
 }
 		
 .styled-select {
-	height: 29px;
-	overflow: hidden;
-	width: 80%;
+
 }
 .styled-select select {
-	background: transparent;
-	border: none;
-	font-size: 14px;
-	height: 29px;
-	padding: 5px; 
-	width: 268px;
-}
-
-.currency{
-	border-radius: 5px;
+	display:block;
 	background-color: rgba(255,255,255,0.2);
 	color: #fff;
-}
-
-.digital_numbers{
-	background-color: rgba(152, 67, 249, 0.5);
 	border: none;
 	border-radius: 4px;
+	font-size: 16px;
+	margin: 30px auto;
+	outline: 0;
+	height: 29px;
+	padding: 7px; 
+	width: 60%;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+
+.digital_numbers{
+	background-color: transparent;
+	border: none;
+	margin:50px auto;
+
 }
 
 .digital_numbers p{
+	margin:0;
 	font-family: "DSEG7";
-	font-size: 80px;
+	font-size: 8vw;
 	text-align: center;
 	color:#fff;
 
@@ -73,12 +69,10 @@
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
 	outline: none;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+
 	width: 100%;
 	background: rgba(255,255,255,0.2);
-	margin-bottom: 4%;
+	margin:0;
 	border: none;
 	border-radius: 4px;
 	padding: 3%;
@@ -86,7 +80,8 @@
 	font: 100% Arial, Helvetica, sans-serif;
 	border: 1px solid transparent;
 }
-.container input:focus{
+.container input:focus,
+.container select:focus{
 	box-shadow: 0 0 5px #fff;
 	padding: 3%;
 	border: 1px solid #fff;
